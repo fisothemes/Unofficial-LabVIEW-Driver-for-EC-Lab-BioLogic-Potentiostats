@@ -6,7 +6,18 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="_APIs" Type="Folder"/>
+		<Item Name="_APIs" Type="Folder">
+			<Item Name="Tusk Framework" Type="Folder">
+				<Item Name="_Controls" Type="Folder"/>
+				<Item Name="Classes" Type="Folder">
+					<Item Name="Dictionary.lvclass" Type="LVClass" URL="../APIs/Tusk Framework/Dictionary Class/Dictionary.lvclass"/>
+					<Item Name="Message.lvclass" Type="LVClass" URL="../APIs/Tusk Framework/Message Class/Message.lvclass"/>
+					<Item Name="Store.lvclass" Type="LVClass" URL="../APIs/Tusk Framework/Store Class/Store.lvclass"/>
+					<Item Name="Tusk Core.lvclass" Type="LVClass" URL="../APIs/Tusk Framework/Task Core Class/Tusk Core.lvclass"/>
+					<Item Name="Tusk.lvclass" Type="LVClass" URL="../APIs/Tusk Framework/Task Class/Tusk.lvclass"/>
+				</Item>
+			</Item>
+		</Item>
 		<Item Name="_Controls" Type="Folder"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
