@@ -11,6 +11,8 @@
 				<Item Name="_Controls" Type="Folder"/>
 				<Item Name="Classes" Type="Folder">
 					<Item Name="Dictionary.lvclass" Type="LVClass" URL="../APIs/Tusk Framework/Dictionary Class/Dictionary.lvclass"/>
+					<Item Name="Exceptions.lvclass" Type="LVClass" URL="../APIs/Tusk Framework/Exceptions Class/Exceptions.lvclass"/>
+					<Item Name="Keywords.lvclass" Type="LVClass" URL="../APIs/Tusk Framework/Keywords Class/Keywords.lvclass"/>
 					<Item Name="Message.lvclass" Type="LVClass" URL="../APIs/Tusk Framework/Message Class/Message.lvclass"/>
 					<Item Name="Store.lvclass" Type="LVClass" URL="../APIs/Tusk Framework/Store Class/Store.lvclass"/>
 					<Item Name="Tusk Core.lvclass" Type="LVClass" URL="../APIs/Tusk Framework/Task Core Class/Tusk Core.lvclass"/>
